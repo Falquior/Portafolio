@@ -71,6 +71,8 @@
     </section>
   <!--End presentacion principal-->
   <!--Sobre mi-->
+  <script>
+  /*
   <section id="about">
     <div class="container">
       <div class="row">
@@ -91,8 +93,45 @@
         <div class="col-sm-1"></div>
       </div>
     </div>
-  </section>
+  </section>*/
+  </script>
   <!--End sobre mi-->
+  <!--Portafolio-->
+  <section id="portafolio">
+    <center>
+      <h2>Mi portafolio</h2>
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Mostrar todos</button>
+        <button class="btn" onclick="filterSelection('Programacion')"> Programacion</button>
+        <button class="btn" onclick="filterSelection('Arte')"> Arte</button>
+        <button class="btn" onclick="filterSelection('Modelado')"> Modelado</button>
+      </div>
+      <div class="row">
+        <div class="column Programacion">
+          <div class="content">
+            <img src="images/System.png" alt="Sys" style="width:100%" title="Olvide la contraseña y ya no puedo entrar">
+            <h4>Sistema de informacion</h4>
+            <p>En Visual Studio y SQL Server</p>
+          </div>
+        </div>
+        <div class="column Arte">
+          <div class="content">
+            <img src="images/Daemon.jpg" alt="Daemon" style="width:100%" title="De los pocos dibujos que me quedaron bien">
+            <h4>Demonio</h4>
+            <p>En Medibang Paint Pro</p>
+          </div>
+        </div>
+        <div class="column Modelado">
+          <div class="content">
+            <img src="images/blade.PNG" alt="blade" style="width:100%" title="Me gusta Paladins">
+            <h4>Espada pesada de Tiberius</h4>
+            <p>En Maya</p>
+          </div>
+        </div>
+      </div>
+    </center>
+  </section>
+  <!--End portafolio-->
   <!--Tecnologias que manejo-->
   <section id="tech">
     <div class="container">
@@ -208,42 +247,6 @@
     </div>
   </section>
   <!--End tecnologias que manejo-->
-  <!--Portafolio-->
-  <section id="portafolio">
-    <center>
-      <h2>Mi portafolio</h2>
-      <div id="myBtnContainer">
-        <button class="btn active" onclick="filterSelection('all')"> Mostrar todos</button>
-        <button class="btn" onclick="filterSelection('Programacion')"> Programacion</button>
-        <button class="btn" onclick="filterSelection('Arte')"> Arte</button>
-        <button class="btn" onclick="filterSelection('Modelado')"> Modelado</button>
-      </div>
-      <div class="row">
-        <div class="column Programacion">
-          <div class="content">
-            <img src="images/System.png" alt="Sys" style="width:100%" title="Olvide la contraseña y ya no puedo entrar">
-            <h4>Sistema de informacion</h4>
-            <p>En Visual Studio y SQL Server</p>
-          </div>
-        </div>
-        <div class="column Arte">
-          <div class="content">
-            <img src="images/Daemon.jpg" alt="Daemon" style="width:100%" title="De los pocos dibujos que me quedaron bien">
-            <h4>Demonio</h4>
-            <p>En Medibang Paint Pro</p>
-          </div>
-        </div>
-        <div class="column Modelado">
-          <div class="content">
-            <img src="images/blade.PNG" alt="blade" style="width:100%" title="Me gusta Paladins">
-            <h4>Espada pesada de Tiberius</h4>
-            <p>En Maya</p>
-          </div>
-        </div>
-      </div>
-    </center>
-  </section>
-  <!--End portafolio-->
   <!--Contacto-->
   <script>
   /*<section id="contact">
